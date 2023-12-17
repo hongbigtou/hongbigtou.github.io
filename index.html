@@ -152,20 +152,20 @@
           <div id="js-content" class="content-ll">
             
   
-    <article id="post-使用hexo框架部署个人博客" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+    <article id="post-hexoblog" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2023/12/17/%E4%BD%BF%E7%94%A8hexo%E6%A1%86%E6%9E%B6%E9%83%A8%E7%BD%B2%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/">使用hexo框架部署个人博客</a>
+      <a class="article-title" href="/2023/12/17/hexoblog/">使用hexo构建个人博客</a>
     </h1>
   
 
         
-        <a href="/2023/12/17/%E4%BD%BF%E7%94%A8hexo%E6%A1%86%E6%9E%B6%E9%83%A8%E7%BD%B2%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" class="archive-article-date">
-  	<time datetime="2023-12-17T10:57:10.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2023-12-17</time>
+        <a href="/2023/12/17/hexoblog/" class="archive-article-date">
+  	<time datetime="2023-12-17T11:56:12.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2023-12-17</time>
 </a>
         
       </header>
@@ -211,7 +211,7 @@
 
 <p>浏览器访问<a target="_blank" rel="noopener" href="http://localhost:4000/">http://localhost:4000/</a></p>
 <h1 id="4-远端部署-Github"><a href="#4-远端部署-Github" class="headerlink" title="4 远端部署(Github)"></a>4 远端部署(Github)</h1><h2 id="创建Github仓库"><a href="#创建Github仓库" class="headerlink" title="创建Github仓库"></a>创建Github仓库</h2><p>用户部署个人博客Github仓库的命名必须复合特定要求（格式为xxx.github.io，其中xxx为Github的用户名）才可以。仓库配置如下，点击创建仓库即可。</p>
-<p><img src="/images/create_repo.png" alt="create_repo"></p>
+<p><img src="/.com//create_repo.png" alt="Untitled"></p>
 <p>复制远程链接，注意复制ssh链接。</p>
 <p><img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/9df2980a-a54a-42b3-b24d-642eb9749bf5/00c567ae-a484-4bd6-817a-e4394c88e157/Untitled.png" alt="Untitled"></p>
 <h2 id="安装部署工具"><a href="#安装部署工具" class="headerlink" title="安装部署工具"></a>安装部署工具</h2><p>blog目录下安装</p>
@@ -221,7 +221,7 @@
 <figure class="highlight jsx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vim _config.<span class="property">yml</span></span><br></pre></td></tr></table></figure>
 
 <p>按照下图修改这个文件中的deployment配置，其中的仓库repo为刚刚在Github创建的仓库地址，注意每个冒号后面加空格。</p>
-<p><img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/9df2980a-a54a-42b3-b24d-642eb9749bf5/16563be8-5b76-4381-870d-f899eb50aa9e/Untitled.png" alt="config"></p>
+<p><img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/9df2980a-a54a-42b3-b24d-642eb9749bf5/16563be8-5b76-4381-870d-f899eb50aa9e/Untitled.png" alt="Untitled"></p>
 <h2 id="配置Github仓库ssh设置"><a href="#配置Github仓库ssh设置" class="headerlink" title="配置Github仓库ssh设置"></a>配置Github仓库ssh设置</h2><p>使用ssh密钥链接Github仓库，一可以避免直接传输Github密码，二可以简化hexo部署流程，避免每次都要输入账户名和密码。</p>
 <figure class="highlight jsx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ls -al ~/.<span class="property">ssh</span></span><br></pre></td></tr></table></figure>
 
@@ -270,73 +270,7 @@
 
       
         <p class="article-more-link">
-          <a class="article-more-a" href="/2023/12/17/%E4%BD%BF%E7%94%A8hexo%E6%A1%86%E6%9E%B6%E9%83%A8%E7%BD%B2%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-我的第一篇文章" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2023/12/17/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/">我的第一篇文章</a>
-    </h1>
-  
-
-        
-        <a href="/2023/12/17/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/" class="archive-article-date">
-  	<time datetime="2023-12-17T07:56:59.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2023-12-17</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h1 id="SDN"><a href="#SDN" class="headerlink" title="SDN"></a>SDN</h1><h2 id="第一章-SDN是什么"><a href="#第一章-SDN是什么" class="headerlink" title="第一章 SDN是什么"></a>第一章 SDN是什么</h2><hr>
-<h2 id="第二章-SDN的历史"><a href="#第二章-SDN的历史" class="headerlink" title="第二章 SDN的历史"></a>第二章 SDN的历史</h2><hr>
-<h2 id="第三章-SDN技术"><a href="#第三章-SDN技术" class="headerlink" title="第三章 SDN技术"></a>第三章 SDN技术</h2><hr>
-<h2 id="第四章-SDN的未来和挑战"><a href="#第四章-SDN的未来和挑战" class="headerlink" title="第四章 SDN的未来和挑战"></a>第四章 SDN的未来和挑战</h2><hr>
-<h3 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h3>
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2023/12/17/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/">展开全文 >></a>
+          <a class="article-more-a" href="/2023/12/17/hexoblog/">展开全文 >></a>
         </p>
       
 
